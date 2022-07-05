@@ -164,9 +164,9 @@ export class NumberInput {
       }
     })
 
-    this.el.addEventListener('change', () => {
-      this.callbackFns.onChange(this.getValue())
-    })
+    //this.el.addEventListener('change', () => {
+    //  this.callbackFns.onChange(this.getValue())
+    //})
   }
 
   setCaretPosition (start, end = start) { this.el.setSelectionRange(start, end) }
